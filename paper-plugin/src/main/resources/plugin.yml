@@ -1,0 +1,6 @@
+name: MinePanelBridge
+version: '${version}'
+main: com.minepanel.bridge.MinePanelBridge
+api-version: '1.21'
+description: Bridge plugin for MinePanel web administration
+author: MinePanel

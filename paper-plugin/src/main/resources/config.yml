@@ -1,0 +1,25 @@
+# MinePanelBridge default configuration
+# SECURITY: keep sharedSecret private and change the default value!
+
+bindAddress: "127.0.0.1"
+port: 8765
+sharedSecret: "CHANGE-ME-TO-A-STRONG-SECRET"
+
+# Commands that can be executed remotely via the panel.
+# Only commands listed here will be accepted.
+allowedCommands:
+  - "say"
+  - "kick"
+  - "ban"
+  - "tempban"
+  - "whitelist add"
+  - "whitelist remove"
+
+# Allow viewing player inventories via the panel
+enableInventoryView: true
+
+# Allow viewing player ender chests via the panel
+enableEnderChestView: true
+
+# Audit log file (relative to plugin data folder)
+logFile: "panel-audit.log"
